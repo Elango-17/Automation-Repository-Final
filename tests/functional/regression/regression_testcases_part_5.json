@@ -1,0 +1,33 @@
+{
+  "root": "tests/functional",
+  "category": "regression",
+  "part": 5,
+  "total_parts": 5,
+  "count": 2,
+  "testcases": [
+    {
+      "Summary": "TC-0048: Addition of -72 and 301",
+      "Name": "Addition: -72 + 301",
+      "Issue Type": "Test",
+      "Priority": "High",
+      "Labels": "calculator,functional,regression,automation-candidate",
+      "Components": "CalculatorApp",
+      "Test Steps": "1. Enter -72\n2. Press +\n3. Enter 301\n4. Press =",
+      "Expected Result": "Display shows 229",
+      "Body": "Test Name: Addition: -72 + 301...",
+      "Description": "Test Name: Addition: -72 + 301..."
+    },
+    {
+      "Summary": "TC-0049: Addition of 708 and -253",
+      "Name": "Addition: 708 + -253",
+      "Issue Type": "Test",
+      "Priority": "High",
+      "Labels": "calculator,functional,regression,automation-candidate",
+      "Components": "CalculatorApp",
+      "Test Steps": "1. Enter 708\n2. Press +\n3. Enter -253\n4. Press =",
+      "Expected Result": "Display shows 455",
+      "Body": "Test Name: Addition: 708 + -253...",
+      "Description": "Test Name: Addition: 708 + -253..."
+    }
+  ]
+}
